@@ -1,0 +1,22 @@
+{
+    "name": "App toko online",
+    "short_name": "toko online",
+    "description": "Membuat Single Page Application dengan jquery & PWA",
+    "icons": [
+        {
+            "src": "assets/images/product.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/images/product-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#1F3641",
+    "background_color": "#ffffff",
+    "prefer_related_applications": false
+}

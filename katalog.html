@@ -1,0 +1,26 @@
+<div id="container-user d-flex flex-row justify-content-between px-3 py-4">
+    <!-- start content welcome user -->
+    <div class="container-user d-flex flex-row justify-content-between px-3 py-4">
+    </div>
+    <!-- end content welcome user -->
+    <!-- start content form search -->
+    <form class="form-search container-search mx-3 mb-4 d-flex justify-contentbetween align-items-center"
+        style="height: 48px">
+        <div class="input-group-search bg-white h-100">
+            <input type="text" name="search" id="search" class="bodytext1 colorblack800"
+                placeholder="Cari barang di sini ..." required />
+        </div>
+        <button type="button" onclick="search"
+            class="h-100 d-flex align-items-center justify-content-center buttonsearch ml-3" style="width: 48px">
+            <i class="fi fi-br-search text-white" onclick="fetch();"></i>
+        </button>
+    </form>
+    <!-- end content form search -->
+    <!-- start content product list -->
+    <div class="container-products w-100">
+        <div id="load_data" class="container-product d-flex justify-content-start
+d-flex w-100 flex-wrap px-2 py-2">
+        </div>
+    </div>
+    <!-- end content product list -->
+</div>
